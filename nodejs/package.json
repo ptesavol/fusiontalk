@@ -1,0 +1,15 @@
+{
+  "name": "fusiontalk",
+  "description": "A simple WebRTC signalling server implemented with websockets",
+  "author": "Petri Savolainen <charlie@nodejitsu.com>",
+	"version": "1.0.0",
+	"repository" :
+	  { "type" : "git",
+	    "url" : "https://github.com/ptesavol/fusiontalk.git"
+	  },
+  "dependencies": {
+    "winston": "0.8.x",
+    "websocket": "1.x.x"
+  },
+  "engine": "node >= 0.8.0"
+}
