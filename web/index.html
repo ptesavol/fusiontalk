@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			The Spaceify Virtual Meeting Room 
+		</title>
+		
+		<script type="text/javascript" src="websocketconnection.js"> </script>
+		<script type="text/javascript" src="webrtcconnection.js"> </script>
+		<script type="text/javascript" src="callbackbuffer.js"> </script>
+		<script type="text/javascript" src="rpccommunicator.js"> </script>	
+		<script type="text/javascript" src="webrtcclient.js"> </script>
+		
+		<script type="text/javascript">
+			
+			
+			
+			
+			var webRtcClient = null;
+			
+			window.onload = function() 
+				{
+				webRtcClient = new WebRtcClient();
+				webRtcClient.run();
+				};	
+			
+			//window.setInterval(function() {			
+
+			//},100);			
+			
+		</script> 
+	</head>
+	
+	<body>
+		<h1 id="title">The Spaceify Virtual Meeting Room</h1>
+		<div id="videosdiv">
+			<video width="320" height="240" autoplay="true" muted="true" volume="0" id="omaruutu">
+  				Your browser does not support the video tag.
+			</video>
+		</div>
+	</body>
+
+</html>
