@@ -9,7 +9,7 @@ function WebRtcClient()
 {
 var self = this;
 
-var COORDINATOR_ADDRESS = {host: "spaceify.net", port: 9753};
+var COORDINATOR_ADDRESS = {host: "192.168.0.103", port: 9753};
 
 var connection = new WebSocketConnection();
 var communicator = new RpcCommunicator();
